@@ -20,7 +20,7 @@ Each use Tensorflow to implement the deep neural networks together with an ADAM 
 ## Data
 The factor data has been collected from a financial data vendor and santized to avoid violation of data licensing agreement and non-commercial utility. The data, for non-commercial use only, can be downloaded from:
 https://www.dropbox.com/s/pqqz49xlqgit4h9/X_new.csv?dl=0 (factor exposures)
-https://www.dropbox.com/s/0z51jj6xfy1ndsn/Y_new.csv?dl=0 (stock returns)
+https://www.dropbox.com/s/0z51jj6xfy1ndsn/Y_new.csv?dl=0 (stock excess returns)
 
 The actual symbols have been remapped and the factors have been normalized in each period. The stocks are characterized by GICS and use dummy variables to represent the four difference catergories:
 
@@ -31,6 +31,11 @@ indgroup=[10, 20, 30 ,40, 50]
 
 Note that the first element in each list is dummatized as 1 0 0 0 .. and the next as 0 1 0 0 ... etc.
 
+ID | Symbol  | Value Factors |
+| --- | --- | --- |
+|1 | B/P | Book to Price|
+|2 | CF/P | Cash Flow to Price|
+|3 | E/P | Earning to Price|
 
 
 
