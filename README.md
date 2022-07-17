@@ -19,7 +19,7 @@ Each use Tensorflow to implement the deep neural networks together with an ADAM 
 
 ## Data
 The factor data has been collected from a financial data vendor and santized to avoid violation of data licensing agreement and non-commercial utility. The data, for non-commercial use only, can be downloaded from:
-https://www.dropbox.com/s/x6mp1n4khxzouex/X.csv?dl=0 (factor exposures)
+https://www.dropbox.com/s/2vtw1nmiq681ns1/X.csv?dl=0 (factor exposures)
 https://www.dropbox.com/s/cdhv3x4djqlpwhe/Y.csv?dl=0 (stock excess returns)
 
 The actual symbols have been remapped and the factors have been normalized in each period. The stocks are characterized by GICS and use dummy variables to represent the four difference catergories:
